@@ -1,6 +1,4 @@
 var navBar = document.createElement("navBar");
-    navBar.style.backgroundColor = "purple";
-    navBar.style.float = "center";
 
 var a1 = document.createElement("a");
     a1.setAttribute("href", "#home ");
@@ -10,20 +8,13 @@ var a1 = document.createElement("a");
 var a2 = document.createElement("a");
     a2.setAttribute("href", " #collection ");
     a2.textContent = " Collection ";
-    a2.style.color = "gold";
+    a2.style.color = "purple";
     
 var a3 = document.createElement("a");
     a3.setAttribute("href", " #contact ");
     a3.textContent = " Profile";
     a3.style.color = "lightblue";
 
-    function styleNavItems(...args){
-        for (a of args){
-            a.style.padding = "50px";
-            a.style.fontSize = "20px"
-        }
-    }
-    styleNavItems(a1, a2, a3);
     navBar.append(a1, a2, a3);
     document.body.appendChild(navBar);
 
