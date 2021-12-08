@@ -8,10 +8,9 @@ const greeting = (elName, times) => {
         ele.style.fontSize = "large";
       }
     };
-   
-document.addEventListener('DOMContentLoaded', () => {
+
     greeting('h1', 10);
-   });
+
 
    var names = [
     "steve", 
@@ -32,4 +31,4 @@ for (var i = 0; i < names.length; i++){
     newName.textContent = names[i];
     ul.appendChild(newName);
 }  
-document.body.prepend(ul);
+document.body.append(ul);
