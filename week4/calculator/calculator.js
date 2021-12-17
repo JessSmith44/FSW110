@@ -1,9 +1,9 @@
 var mydivAdd = document.createElement("div");
 var containerAdd = document.createElement("fieldset");
-    containerAdd.style.backgroundColor = "red";
+    containerAdd.style.backgroundColor = "pink";
     mydivAdd.appendChild(containerAdd);
 var tabletopAdd = document.createElement("table");
-    tabletopAdd.style.backgroundColor = "orange";
+    tabletopAdd.style.backgroundColor = "yellow";
     containerAdd.appendChild(tabletopAdd);
 
 var row1A = document.createElement("tr");
@@ -55,7 +55,7 @@ var btnadd = document.createElement("button");
 
 var mydivSub = document.createElement("div");
 var containerSub = document.createElement("fieldset");
-    containerSub.style.backgroundColor = "red";
+    containerSub.style.backgroundColor = "yellow";
     mydivSub.appendChild(containerSub);        
 var tabletopSub = document.createElement("table");
     tabletopSub.style.backgroundColor = "orange";
@@ -105,7 +105,7 @@ btnsub.addEventListener("click", function(){
 
 var mydivMul = document.createElement("div");
 var containerMul = document.createElement("fieldset");
-  containerMul.style.backgroundColor = "red";
+  containerMul.style.backgroundColor = "orange";
   mydivMul.appendChild(containerMul);
 var tabletopMul = document.createElement("table");
     tabletopMul.style.backgroundColor = "orange";
@@ -159,7 +159,7 @@ var containerD = document.createElement("fieldset");
     containerD.style.backgroundColor = "red";
     mydivD.appendChild(containerD);
 var tabletopD = document.createElement("table");
-    tabletopD.style.backgroundColor = "orange";
+    tabletopD.style.backgroundColor = "red";
     containerD.appendChild(tabletopD);
 var row1D = document.createElement("tr");
     tabletopD.appendChild(row1D);
