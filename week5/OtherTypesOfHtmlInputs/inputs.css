@@ -1,11 +1,12 @@
 body{
-    background-color: plum;
+    background-color: darkcyan;
 }
 #inputsForm{
-    border: 6px solid rgb(23, 164, 230);
+    border: 6px solid rgb(18, 114, 26);
     width: 30%;
     padding: 15px;
     margin: 5px auto;
     display: flex;
     justify-content: center;
+    background-color: cadetblue;
 }
