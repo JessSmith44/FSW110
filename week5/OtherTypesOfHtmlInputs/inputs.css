@@ -1,0 +1,11 @@
+body{
+    background-color: plum;
+}
+#inputsForm{
+    border: 6px solid rgb(23, 164, 230);
+    width: 30%;
+    padding: 15px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+}
